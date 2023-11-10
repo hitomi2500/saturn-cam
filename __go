@@ -1,0 +1,5 @@
+make
+make camtest.ss
+rm 'E:\WASCALDR.BIN'
+cp camtest.ss 'E:\WASCALDR.BIN'
+

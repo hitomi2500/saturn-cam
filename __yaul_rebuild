@@ -1,0 +1,8 @@
+cd /opt/libyaul
+make install-release
+cd ~/cpu-sci
+make clean
+make
+make cpu-sci.ss
+rm 'E:\WASCALDR.BIN'
+cp cpu-sci.ss 'E:\WASCALDR.BIN'
